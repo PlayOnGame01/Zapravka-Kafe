@@ -1,0 +1,186 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 187, 176
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "        Menu",IDC_STATIC,26,14,127,147
+    PUSHBUTTON      "Заправка",IDC_BUTTON1,35,42,50,14
+    PUSHBUTTON      "Кафе",IDC_BUTTON2,35,62,50,14
+    GROUPBOX        "Цена за услуги ",IDC_STATIC,29,97,103,61
+    PUSHBUTTON      "Перейти к оплате ",IDC_BUTTON3,35,79,75,14
+    EDITTEXT        IDC_EDIT1,33,110,93,42,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 195, 361
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Перейти в главное меню",IDOK,11,318,93,14
+    GROUPBOX        "Заправка",IDC_STATIC,10,8,158,224
+    COMBOBOX        IDC_COMBO1,90,25,48,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Выбор бензина",IDC_STATIC,16,28,52,8
+    LTEXT           "Цена",IDC_STATIC,15,49,18,8
+    LISTBOX         IDC_LIST1,90,47,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "",IDC_STATIC,13,59,63,60
+    CONTROL         "Количество",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,19,73,56,10
+    CONTROL         "Цена",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,19,92,33,10
+    LISTBOX         IDC_LIST2,90,69,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_STATIC,90,90,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Л.",IDC_STATIC,144,71,8,8
+    LTEXT           "Грн.",IDC_STATIC,143,92,16,8
+    GROUPBOX        "К оплате)",IDC_STATIC,11,138,154,77
+    LTEXT           "Грн.",IDC_STATIC,141,50,16,8
+    LISTBOX         IDC_LIST13,19,161,138,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Всего к оплате",IDC_STATIC,11,239,154,77
+    LISTBOX         IDC_LIST14,20,263,138,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 201, 236
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Кафе",IDC_STATIC,9,8,158,176
+    CONTROL         "Кофе",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,28,34,10
+    CONTROL         "Шоколад",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,45,47,10
+    CONTROL         "Бургер",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,62,39,10
+    CONTROL         "Чай",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,79,29,10
+    LISTBOX         IDC_LIST4,115,27,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST5,115,43,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST6,65,43,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST7,65,27,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST8,65,59,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST9,65,75,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST10,115,59,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST11,115,75,48,13,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "К оплате)",IDC_STATIC,11,98,154,77
+    LISTBOX         IDC_LIST12,18,120,138,40,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Цена",IDC_STATIC,77,16,18,8
+    LTEXT           "Колличество ",IDC_STATIC,117,16,47,8
+    DEFPUSHBUTTON   "Перейти в главное меню",IDOK,10,192,93,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 169
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 188
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 354
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 194
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 229
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
